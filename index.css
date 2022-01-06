@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* #00822c */
+
+body{
+    background: linear-gradient(to left, #0085ec, #00822c, #00822c, #0085ec);
+}
+
+.container{
+    /* border: 2px solid red; */
+    width: 300px;
+    background: #fff;
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    padding-bottom: 50px;
+}
+
+.weather-icon img{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    object-position: center;
+}
+.app-title{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    font-size: 1.6rem;
+    color: #00822c;
+}
+
+.notification{
+    background-color: #f8d7da;
+    display: none;
+}
+
+.notification p{
+    color: #721c24;
+    font-size: 1.2rem;
+    margin: 0;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.weather-container{
+    width: 300px;
+    height: 260px;
+    background-color: #f4f9ff;
+}
+
+.weather-icon{
+    width: 300px;
+    height: 128px;
+    /* border: 2px solid red; */
+}
+.weather-icon img{
+    display: block;
+    margin: 0 auto;
+}
+
+.temperature-value{
+    padding: 0;
+    margin: 0;
+    color: #00822c;
+    font-size: 3rem;
+    text-align: center;
+}
+.temperature-value span{
+    color: #00822c;
+    font-size: 2rem;
+}
+.temperature-description{
+    padding: 8px;
+    margin: 0;
+    color: #00822c;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.location p{
+    margin: 0;
+    padding: 0;
+    color: #00822c;
+    text-align: center;
+    font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *,
+*:after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.weather-icon img{
+    height: 180px;
+    width: 180px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.container{
+    border: 2px solid red;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    padding: 0 40px 0 40px;
+}
+.container .app-title{
+    display: relative;
+    width: 100%;
+    padding: 20px;
+    border: 2px solid red;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-align: center;
+} */
